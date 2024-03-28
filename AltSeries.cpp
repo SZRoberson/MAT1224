@@ -94,7 +94,7 @@ int main() {
         " which is less than the tolerance." << endl;
     cout << "The true sum is " << sum_c << "." << endl;
     cout << "The error is " << abs(sum_c - est_sum) << "!" << endl;
-    sleep_for(seconds(1));
+    sleep_for(seconds(30));
     
     return 0;
 
